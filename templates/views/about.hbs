@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="/css/mobile.css" />
+  <script src="https://kit.fontawesome.com/4867205515.js" crossorigin="anonymous"></script>
+  <title>V's Homemade | About</title>
+</head>
+
+<body>
+  
+  <header>
+    {{>header}}
+    
+    <nav id="navbar">
+  <div class="container">
+      <h1 class="logo"><a href={{link0}}>V's Homemade Baked
+        Goods</a></h1>
+      <ul>
+        <li><a href={{link1}}>Home</a></li>
+        <li><a class=current href="{{link2}}">About</a></li>
+        <li><a href={{link3}}>Contact</a></li>
+      </ul>
+  </div>  
+</nav>
+  </header> 
+  <section id="about-info" class="bg-light py-3">
+    <div class="container">
+      <div class="info-left">
+        <h1 class="l-heading"><span class="text-primary">About</span> V's Homemade</h1 class="">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+           elit. Dicta reiciendis doloremque doloribus debitis
+           ratione? Atque commodi ipsa aliquam odio in alias
+           quas ipsum quaerat, minima repellat, neque, dolorem
+           eligendi voluptatum.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing
+           elit. Nam quas maxime nulla ad dolorum sit repellat
+           at tempore expedita tempora.</p>
+      </div>
+      <div class="info-right">
+        <img src="/img/Vera (2).JPG" alt="">
+      </div>
+    </div>
+  </section>
+  <div class="clr"></div>
+
+  <section id="testimonials" class="py-3">
+    <div class="container">
+      <h2 class="l-heading">{{>body}}</h2>
+      <div class="testimonial bg-primary">
+        <img src="./img/person-1.jpg" alt="Sara">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+           Quod totam aspernatur architecto ea consectetur quae, 
+           voluptas rem ullam, sit provident asperiores molestiae,
+           mollitia quia voluptate nesciunt at inventore explicabo. 
+           Porro corrupti illo nulla ea incidunt excepturi reiciendis
+           eos omnis neque!</p>
+      </div>
+      <div class="testimonial bg-primary">
+        <img src="./img/person-2.jpg" alt="May">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+           Voluptas natus incidunt iusto? Nam consequatur explicabo 
+           debitis, dolorum obcaecati iste, dolorem cumque, delectus 
+           magni eum corrupti voluptatibus commodi aperiam molestias 
+           illum unde alias voluptate iusto reprehenderit? Perspiciatis
+           iure autem quos et.</p>
+      </div>
+    </div>
+  </section>
+  <footer id="main-footer">
+    <p>V's Homemade Goods &copy; 2019, All Rights Reserved</p>
+    {{>footer}}
+  </footer>
+</body>
+
+</html>
