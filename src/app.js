@@ -46,13 +46,13 @@ app.get("/about", (req, res) => {
     paragraph:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat culpa, deserunt error a praesentium, assumenda corporis hic animi aperiam exercitationem, facere ex laboriosam. Praesentium non vero aperiam ipsa, odit veritatis!",
 
-    title3: "What The Customers Are Saying",
+    title3: "What The Clients Are Saying",
 
     paragraph2:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, voluptas!",
+      "Tyra: I love your lemon cake it's my favorite desert.",
 
     paragraph3:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni delectus fugiat quibusdam facere cumque et omnis officiis labore. Magni, voluptatibus?"
+      "Jane: I really enjoy all your desserts and you make them so moist and delicious."
   });
 });
 
